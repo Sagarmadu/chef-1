@@ -1,0 +1,7 @@
+log_level        :info
+log_location     STDOUT
+chef_server_url  'https://chefserver.lab.com/organizations/lab'
+validation_client_name 'lab-validator'
+validation_key '/etc/chef/validator.pem'
+client_key '/etc/chef/client.pem'
+ssl_verify_mode    :verify_none
